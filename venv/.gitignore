@@ -1,0 +1,24 @@
+# 1. Sensitive Configuration Files (Required by guidelines) [cite: 19]
+.env
+
+# 2. Dependency Folders (Required by guidelines) [cite: 17]
+# Covers Python environments (venv), Node (node_modules), and general dependency folders.
+venv/
+env/
+node_modules/
+
+# 3. Build Artifacts (Required by guidelines) [cite: 20]
+dist/
+build/
+.next/
+out/
+.vercel/
+
+# 4. Temporary/Editor-Specific Files (Required by guidelines) [cite: 21]
+.vscode/
+.idea/
+*~
+
+# 5. Python-Specific Exclusions (For a typical Python project)
+__pycache__/
+*.pyc
